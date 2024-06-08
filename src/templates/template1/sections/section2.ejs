@@ -1,0 +1,16 @@
+<div id="section2" class="section" draggable="true">
+  <p>Location: <span id="location" class="editable"><%= business.location %></span></p>
+
+  <h2>Reviews</h2>
+  <ul>
+      <% business.reviewers.forEach(function(reviewer) { %>
+          <li class="reviewer">
+              <strong class="reviewer-name editable"><%= reviewer.name %></strong>: <span class="reviewer-review editable"><%= reviewer.review %></span>
+          </li>
+      <% }); %>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Phone: <span id="contact-phone" class="editable"><%= business.contacts.phone %></span></p>
+  <p>Email: <span id="contact-email" class="editable"><%= business.contacts.email %></span></p>
+</div>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Website Generator</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Business Website Generator</h1>
+    <form id="business-form">
+        <div>
+            <label for="shopName">Shop Name:</label>
+            <input type="text" id="shopName" name="shopName" value="The Coffee House" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required>A cozy place to enjoy your favorite coffee.</textarea>
+        </div>
+        <div>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" value="123 Java Street, Caffeine City" required>
+        </div>
+        <div>
+            <label for="reviewers">Reviewers (JSON format):</label>
+            <textarea id="reviewers" name="reviewers" required>[{"name": "John Doe", "review": "Great coffee and atmosphere!"}, {"name": "Jane Smith", "review": "A perfect place to relax and work."}]</textarea>
+        </div>
+        <div>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" name="contacts.phone" value="123-456-7890" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="contacts.email" value="info@coffeehouse.com" required>
+        </div>
+        <div>
+            <label for="template">Template:</label>
+            <select id="template" name="template" required>
+                <option value="template1">Template 1</option>
+                <option value="template2">Template 2</option>
+            </select>
+        </div>
+        <button type="submit">Generate</button>
+    </form>
+
+    <script src="/js/index.js"></script>
+</body>
+</html>

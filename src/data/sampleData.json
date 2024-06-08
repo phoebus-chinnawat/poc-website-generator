@@ -1,0 +1,19 @@
+{
+  "shopName": "The Coffee House",
+  "description": "A cozy place to enjoy your favorite coffee shop.",
+  "location": "123 Java Street, Caffeine City",
+  "reviewers": [
+    {
+      "name": "John Doe",
+      "review": "Great coffee and atmosphere!"
+    },
+    {
+      "name": "Jane Smith",
+      "review": "A perfect place to relax and work."
+    }
+  ],
+  "contacts": {
+    "phone": "123-456-7890",
+    "email": "info@coffeehouse.com"
+  }
+}
